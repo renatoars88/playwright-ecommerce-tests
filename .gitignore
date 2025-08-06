@@ -1,7 +1,26 @@
-
-# Playwright
+# Node modules
 node_modules/
+
+# Playwright test results and reports
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lockfiles (se quiser ignorar)
+/package-lock.json
+/yarn.lock
+
+# VSCode settings (opcional)
+.vscode/
+
+# MacOS system files (opcional)
+.DS_Store
+
+# Environment variables file (opcional)
+.env
