@@ -1,9 +1,9 @@
 import { test } from '../fixtures/custom-fixtures';
 import { expect } from '@playwright/test';
 
-const username = process.env.LOGIN_USER!;
-const password = process.env.LOGIN_PASS!;
-const baseUrl  = process.env.BASE_URL!;
+const username = process.env.LOGIN_USER || 'standard_user';
+const password = process.env.LOGIN_PASS || 'secret_sauce';
+const baseUrl  = process.env.BASE_URL || 'https://www.saucedemo.com/v1';
 
 
 test('Login should succeed with valid credentials', async ({ loginPage }) => {
