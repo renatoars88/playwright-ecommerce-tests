@@ -13,9 +13,6 @@ export class LoginPage {
         await this.page.fill('#user-name',username); 
         await this.page.fill('#password', password);
         await this.page.getByRole('button', { name: 'LOGIN' }).click(); 
-}
-
-
-
+    }
 }
 
