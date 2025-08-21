@@ -11,9 +11,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-     LOGIN_USER: ${{ secrets.LOGIN_USER }}
-     LOGIN_PASS: ${{ secrets.LOGIN_PASS }}
-     BASE_URL: ${{ secrets.BASE_URL }}
+      LOGIN_USER: ${{ secrets.LOGIN_USER }}
+      LOGIN_PASS: ${{ secrets.LOGIN_PASS }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+
 
     steps:
       - name: Checkout code
