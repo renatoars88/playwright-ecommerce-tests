@@ -27,7 +27,7 @@ export default defineConfig({
     ['html', { open: 'never' }],// HTML report artifact
   ],
   use: {
-    baseURL: process.env.BASE_URL || 'https://www.saucedemo.com',
+    baseURL: process.env.BASE_URL || 'https://www.saucedemo.com/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',

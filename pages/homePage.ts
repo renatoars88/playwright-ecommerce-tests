@@ -1,6 +1,5 @@
 import { Page } from '@playwright/test';
 
-
 const productName = 'Sauce Labs Backpack';
 
 export class HomePage {
